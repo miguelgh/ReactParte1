@@ -1,11 +1,12 @@
 import React from 'react';
+import '../styles/components/pages/ContactoPage.css'
 
 const ContactoPage = (props) => {
     return (
         <main className="holder contacto">
-            <div ClassName="bloque">
+            <div className="bloque">
                 <h2>Contacto</h2>
-                <form action="" method="" ClassName="formulario">
+                <form action="" method="" className="formulario">
                     <p>
                         <label for="nombre">Nombre</label>
                         <input type="text" name="nombre" id="nombre"/>
@@ -27,7 +28,7 @@ const ContactoPage = (props) => {
                     </p>
                 </form>
             </div>
-            <div ClassName="datos bloque">
+            <div className="datos bloque">
                 <h2>Otras vías de comunicación</h2>
                 <p>También puede contactarse con nosotros usando los siguientes medios:</p><br/>
                     <ul>

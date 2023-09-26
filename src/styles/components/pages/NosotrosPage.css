@@ -1,0 +1,64 @@
+/*Nosotros*/
+.bloque{
+    padding: 20px;
+}
+.bloque p{
+    font-size: 16px;
+}
+.staff{
+    padding: 20px;
+}
+.personas{
+    display: flex;
+    flex-direction: column;
+}
+.persona{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    margin: 5px 0px;
+    box-sizing: border-box;
+}
+.persona img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 10px rgba(2, 102, 233, 0.5) ;
+}
+.persona h5, .persona h6{
+    margin: 0;
+    font-weight:normal;
+    color: #2e64a1;
+}
+.persona h5{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.persona h6{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.persona p{
+    color: #666;
+    font-size: 14px;
+}
+@media (min-width:650px){
+    .personas{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .persona{
+        width: 18%;
+    }
+    .persona h5{
+        font-size: 14px;
+    }
+    .persona h6{
+        font-size: 11px;
+    }
+    .persona p{
+        font-size: 11px;
+    }
+}
+/*fin Nosotros*/

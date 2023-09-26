@@ -1,0 +1,56 @@
+/*contacto*/
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+.contacto div{
+    width: 100%;
+}
+.formulario p{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.formulario p label{
+    /* con el min-width controla el espacio entre el input y el label, así da una separación pareja entre todos los label */
+    min-width: 80px;
+}
+.formulario p:nth-child(4){
+    /* con el 4 busco el cuarto "p" que está dentro de formulario y le asigno una propiedad */
+    align-items:start;
+}
+.formulario input{
+    border: 1px solid #b3b3b3;
+}
+.formulario textarea{
+    resize: none;/*evita que a la caja se le pueda modificar el tamaño*/
+    height: 150px;
+    border: 1px solid #b3b3b3;
+}
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem; /*80px la misma separación que "formulario p label" min-widht 80px, así el botón queda alineado con los input*/
+    cursor: pointer;
+    border: none;
+}
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1;
+}
+.datos p{
+    font-size: 14px;
+}
+.datos ul li{
+    font-size: 13px;
+    margin-left: 20px;
+}
+@media (min-width:650px){
+    .contacto{
+        flex-direction: row;
+    }
+}
+/* fin Contacto */
