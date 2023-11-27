@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-//import '../styles/components/pages/NovedadesPage.css';
+import '../styles/components/pages/NovedadesPage.css';
 import axios from 'axios';
 import NovedadItem from '../components/novedades/NovedadItem';
 
