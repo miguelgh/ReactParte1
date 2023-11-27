@@ -26,12 +26,12 @@ const ContactoPage = (props) => {
     const handleSubmit = async e => {
         e.preventDefault();
         setMsg('');
-        setSending(true);
+        setSending(true)
         const response = await axios.post('http://localhost:3000/api/contacto', formData);
         setSending(false);
         setMsg(response.data.message);
-        if(response.data.error === false) {
-            setFormData(initialForm);
+        if (response.data.error === false) {
+            setFormData(initialForm)
         }
     }
 
@@ -57,8 +57,8 @@ const ContactoPage = (props) => {
                         <textarea name="mensaje" id="mensaje" cols="30" rows="10" value={ formData.mensaje } onChange={handleChange}></textarea>
                     </p>
                     <p>
-                        { sending ? <p>Enviando ...</p> : null }
-                        {msg ? <p>{msg}</p> : null}
+                    {sending ? <p>Enviando...</p>: null}
+                    {msg ? <p>{msg}</p>: null}
                     </p>
                     <p>
                         <input type="submit" value="Enviar"/>
