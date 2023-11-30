@@ -69,11 +69,10 @@ const ContactoPage = (props) => {
                 <h2>Otras vías de comunicación</h2>
                 <p>También puede contactarse con nosotros usando los siguientes medios:</p><br/>
                     <ul>
-                        <li>Telefono: 12345-1234</li>
+                        <li>Telefono: 11 2345-6789</li>
                         <li>Email: Contacto@transportesx.com.ar</li>
                         <li>Facebook:</li>
                         <li>Twitter:</li>
-                        <li>Skype:</li>
                     </ul>
             </div>
         </main>
