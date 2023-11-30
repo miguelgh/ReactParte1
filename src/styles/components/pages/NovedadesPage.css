@@ -1,8 +1,55 @@
-/*Novedades*/
-.novedades h4{
-    font-weight: normal;
-}
-.novedades p{
+.novedades{
+    border:1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 15px;
     margin: 10px 0px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
 }
-/*fin novedades*/
+.novedades h3 {
+    color: #2e64a1;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #2e64a1;
+    text-align: center;
+}
+.novedades h4{
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+.infoNovedad{
+    display: flex;
+    flex-direction: column;
+}
+.infoNovedad img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.textoNovedad{
+    margin: 15px 0px;
+    text-align: center;
+}
+
+@media (min-width:650px){
+    .infoNovedad{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin: 10px 0px;
+    }
+    .novedades img{
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        margin: 0px 5px;
+    }
+    .textoNovedad{
+        margin: 5px 0px;
+        text-align: start;
+    }
+}
