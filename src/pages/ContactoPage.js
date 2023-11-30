@@ -71,8 +71,10 @@ const ContactoPage = (props) => {
                     <ul>
                         <li>Telefono: 11 2345-6789</li>
                         <li>Email: Contacto@transportesx.com.ar</li>
-                        <li>Facebook:</li>
-                        <li>Twitter:</li>
+                        <li>Redes: 
+                            <a href='https://www.facebook.com/'><i className="fa-brands fa-facebook fa-lg"></i></a>
+                            <a href='https://www.instagram.com/'><i className="fa-brands fa-square-instagram fa-lg"></i></a>
+                        </li>
                     </ul>
             </div>
         </main>
