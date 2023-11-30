@@ -16,7 +16,7 @@ const Nav = (props) => {
 
     return (
         <nav>
-            <div class="fondo-boton">
+            <div className="fondo-boton">
                 <button id="boton-menu" onClick={ btnMenu }>
                     <span><img src="img/menu.png" alt="" /></span> menu
                 </button>
